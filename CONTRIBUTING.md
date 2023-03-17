@@ -82,9 +82,9 @@ Due to the potential for disaster when used by less experienced users of Git and
 
 When maintainers are merging Pull Requests, GitHub may present them with the following options:
 
-_Merge_ (disabled currently, as linear commit history has been enforced)
-**Squash and Merge** (combines all commits in the Pull Request into a single squashed commit)
-**Rebase and Merge** (rebases all commits in the Pull Request onto the tip of the master branch)
+1. _Merge_ (disabled currently, as linear commit history has been enforced)
+2. **Squash and Merge** (combines all commits in the Pull Request into a single squashed commit)
+3. **Rebase and Merge** (rebases all commits in the Pull Request onto the tip of the master branch)
 
 The decision to choose 2 or 3 is left to the discretion of the maintainer. [GitHub explains the technicalities of these two options.](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges) Maintainers are suggested to pick whichever option would lead to cleaner commit history, with all commits atomic.
 
